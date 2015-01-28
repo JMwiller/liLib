@@ -1,6 +1,6 @@
 // 试着编写一个自己的js库，用于平常的js练习测试用
 'use strict';
-var Li = {
+var li = {
 	// id & tag 获取函数
 	$: function( aim ) {
 		if ( typeof aim == 'string' && document.getElementById(aim) ) {
